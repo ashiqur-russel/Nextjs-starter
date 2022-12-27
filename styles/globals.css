@@ -3,6 +3,9 @@
 @tailwind utilities;
 html, */
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:ital,wght@0,200;0,400;1,300&display=swap");
+html {
+  background: #dddcdc;
+}
 body {
   padding: #f2f2f2;
 
@@ -25,7 +28,7 @@ a {
   }
 
   body {
-    background-color: white;
+    background-color: #fff;
   }
 }
 
