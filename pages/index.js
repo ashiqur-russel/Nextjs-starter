@@ -7,11 +7,11 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Home</title>
       </Head>
-      <div>
+      <div className="container">
         <h1 className={styles.title}>Home Page</h1>
         <p className={styles.text}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
@@ -31,6 +31,6 @@ export default function Home() {
       <Link href="/blogs" className={styles.btn}>
         See Posts
       </Link>
-    </div>
+    </>
   );
 }
